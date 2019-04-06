@@ -43,7 +43,9 @@
     "node_modules/three/src/renderers/webvr/*": "./empty.js"
   },
   "eslintConfig": {
-    "extends": "@logux/eslint-config/node",
+    "env": {
+      "browser": true
+    },
     "rules": {
       "security/detect-non-literal-regexp": "off",
       "security/detect-unsafe-regex": "off",
@@ -97,8 +99,12 @@
     "postcss-media-minmax": "^4.0.0",
     "postcss-nested": "^4.1.2",
     "postcss-pxtorem": "^4.0.1",
+    "postcss-custom-properties": "^8.0.10",
+    "postcss-mixins": "^6.2.1",
+    "postcss-modules": "^1.4.1",
     "posthtml": "^0.11.3",
     "pug": "^2.0.3",
+    "sass": "^1.17.4",
     "strip-debug": "^4.0.0",
     "stylelint": "^9.10.1",
     "stylelint-config-recess-order": "^2.0.1",

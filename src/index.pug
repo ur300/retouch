@@ -4,4 +4,17 @@ html( lang="en" itemtype="https://schema.org/Person" itemscope )
         title Daria Stepanova
         meta( name="description" content="Daria Stepanova retouch projects" )
         include ./head.pug
-h1 Daria Stepanova
+
+.layout
+    h1.layout__title
+        span( itemprop="givenName" ) Daria
+        = ' '
+        span( itemprop="familyName" ) Stepanova
+
+p.soc
+    a( href='https://www.instagram.com/stepanovadary_cam/' target='_blank')
+        i.fab.fa-instagram
+    a( href='https://www.facebook.com/dasha.stepanova.58726' target='_blank')
+        i.fab.fa-facebook-square
+    a( href='https://www.facebook.com/dasha.stepanova.58726' target='_blank')
+        i.fab.fa-behance-square
