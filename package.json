@@ -5,7 +5,7 @@
     "test": "yarn lint & yarn build && yarn spell",
     "clean": "rimraf dist/",
     "start": "parcel serve src/index.pug --open",
-    "build": "yarn clean && NODE_ENV=production ./build.js"
+    "build": "yarn clean && parcel build src/index.pug"
   },
   "browserslist": [
     "last 2 versions",
