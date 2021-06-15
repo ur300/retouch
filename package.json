@@ -20,7 +20,7 @@
     "rollup-plugin-terser": "^5.1.2",
     "sass": "^1.26.10",
     "svelte": "^3.0.0",
-    "postcss": "^7.0.32"
+    "postcss": "^7.0.36"
   },
   "dependencies": {
     "node-sass": "^4.14.1",
